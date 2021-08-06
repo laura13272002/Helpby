@@ -1,3 +1,5 @@
+@import url("./themes.css");
+
 *{
     margin: 0px;
     box-sizing: border-box;
@@ -23,7 +25,7 @@ body{
 
 header{
     font-size: 25px;
-    background: black;
+    background: var(--primary-color);
     height: 100px;
     width: 100%;
     text-align: center;
@@ -65,10 +67,6 @@ nav ul li{
     padding: 1px;
 }
 
-ul{
-    list-style: none;
-}
-
 .clearfix{
     clear: both;
 }
@@ -100,7 +98,7 @@ ul{
 aside{
     float: left;
     width: 20%;
-    min-height: 426px;
+    min-height: 445px;
     background: darkgray;
     /* padding: 10px; */
     padding-top: 20px;
@@ -108,11 +106,8 @@ aside{
     border-left: 1px solid black;
 }
 
-/* .aside-search li a i{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-} */
+
+
 
 footer{
     background: black;
