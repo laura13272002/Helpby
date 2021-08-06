@@ -1,5 +1,18 @@
 :root {
-    --primary-color: black;
-    --secondary-color: blue;
+    /* --first-color: #ADD8E6;
+    --second-color: ; */
+    --first-color: #33FFC1   ;
+    --second-color: white ;
+    --third-color: white;
+    --fourth-color: white;
 }
+
+.dark-theme{
+    --first-color: black;
+    --second-color: gray;
+    --third-color: gray;
+    --fourth-color: white;
+}
+
+
 
