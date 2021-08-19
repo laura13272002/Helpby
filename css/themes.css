@@ -1,17 +1,19 @@
 :root {
     /* --first-color: #ADD8E6;
     --second-color: ; */
-    --first-color: #33FFC1   ;
-    --second-color: white ;
-    --third-color: white;
-    --fourth-color: white;
+    --first-color: #00B4D8;
+    --second-color: white;
+    --third-color: #CED4DA;
+    --fourth-color: black;
+    --fifth-color: #E9ECEF;
 }
 
 .dark-theme{
     --first-color: black;
-    --second-color: gray;
+    --second-color: white;
     --third-color: gray;
-    --fourth-color: white;
+    --fourth-color: black;
+    --fifth-color: #E9ECEF;
 }
 
 
