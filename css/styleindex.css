@@ -1,0 +1,128 @@
+@import url("./themes.css");
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+
+body{
+    /* background-image: url("https://static.vecteezy.com/system/resources/thumbnails/000/533/562/small/9-01.jpg"); */
+    /* background-image: url(../img/background.jpg); */
+    font-family: 'Bubblegum Sans', cursive;
+    background-color: var(--second-color);
+    font-size: 16px;
+}
+
+#container{
+    width: 100%;
+    margin: 0px auto;
+}
+
+header{
+    font-size: 25px;
+    background: var(--first-color);
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+}
+
+.nav-main{
+    background: var(--third-color);
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+#icon{
+    margin-top: 5px;
+    margin-right: 8px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.nav-ph{
+    width: 40px;
+    margin-left: 10px;
+}
+
+a{
+    color:var(--second-color);
+    text-decoration: none;
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+}
+
+nav ul{
+    flex: 1;
+    text-align: left;
+}
+
+.nav-main ul li a:hover{
+    border-bottom: 2px solid var(--first-color);
+}
+
+.nav-main ul li a{
+    padding: 1px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+#content{
+    float: left;
+    width: 80%;
+    min-height: 400px;
+    background: var(--fifth-color);
+    padding: 40px;
+}
+
+.article{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.article:first-child{
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+}
+
+.article h2{
+    font-size: 30px;
+}
+
+aside{
+    float: left;
+    width: 20%;
+    min-height: 445px;
+    background: var(--fifth-color);
+    padding-top: 20px;
+    padding-left: 10px;
+    border-left: 1px solid black;
+}
+
+footer{
+    background: var(--first-color);
+    color: var(--second-color);
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
